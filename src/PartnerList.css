@@ -1,0 +1,76 @@
+/* map.css */
+
+/* Reset some default styles for better cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    width: 70%;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Scrollable sidebar for lists */
+.sidebar {
+    width: 30%;
+    overflow-y: scroll;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.sidebar p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for the info window content */
+.infowindow_content {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.infowindow_content br {
+    margin-bottom: 5px;
+}
+
+/* Additional styling for better readability */
+.sidebar h1,
+.sidebar h2 {
+    color: #343a40;
+}
+
+.sidebar p {
+    color: #495057;
+}

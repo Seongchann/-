@@ -1,0 +1,45 @@
+/*메인*/
+
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3, h5, h6 {
+    text-align: left;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h5, h6 {
+    font-family: IBMPlexSansKR-Regular;
+}
+
+body {
+    font-family: S-CoreDream-4Regular, Inter;
+}
+
+.col-12 .main-card{
+    border-radius: 15px;
+}
+
+.main-box{
+    margin-top: 25px !important;
+}
+
+.main-card-content{
+    border-radius: 15px;
+    background-color: #B5DBFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
